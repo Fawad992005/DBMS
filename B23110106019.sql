@@ -30,17 +30,12 @@ INSERT INTO books (title, author, year_published, isAvailable, price, publicatio
 ('Storm of Dust', 'Miles Carrington', 1965, TRUE, 350.00, 'SciFi'),
 ('Worlds Collide in Silence', 'Amelia Drake', 2020, TRUE, 520.00, 'XYZ');
 
--- Select all books published after 2000
 SELECT * FROM books WHERE year_published > 2000;
 
--- Select books with a price less than 599.00, ordered by price in descending order
 SELECT * FROM books WHERE price < 599.00 ORDER BY price DESC;
 
--- Select the top 3 most expensive books
 SELECT * FROM books ORDER BY price DESC LIMIT 3;
 
--- Select 2 books, skipping the first 2, ordered by year_published in descending order
 SELECT * FROM books ORDER BY year_published DESC OFFSET 2 LIMIT 2;
 
--- Select all books of the publication “XYZ” ordered alphabetically by title
 SELECT * FROM books WHERE publication = 'XYZ' ORDER BY title;
