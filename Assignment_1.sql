@@ -14,22 +14,21 @@ CREATE TABLE books (
 
 -- Insert sample data
 INSERT INTO books (title, author, year_published, isAvailable, price, publication) VALUES
-('Whispers of Eternity', 'Lena Carter', 1999, TRUE, 499.00, 'ABC'),
-('Iron Horizon', 'Victor Hale', 1949, TRUE, 300.00, 'XYZ'),
-('Steps to Tomorrow', 'Diana Brooks', 2020, TRUE, 750.00, 'XYZ'),
-('Echoes in the Fog', 'Marcus Gray', 2019, FALSE, 550.00, 'XYZ'),
-('Breaking the Silence', 'Eva Dalton', 2018, TRUE, 600.00, 'Penguin'),
-('Small Changes, Big Wins', 'Nathan Reid', 2018, TRUE, 599.00, 'Random House'),
-('The Long Road Home', 'Isabel Monroe', 2018, TRUE, 720.00, 'ABC'),
-('Wired for Wonder', 'Colin Frost', 2011, TRUE, 680.00, 'Harper'),
-('Dreamers & Machines', 'Sophie Lang', 2016, FALSE, 640.00, 'Harper'),
-('Path of the Seeker', 'Felix Romero', 1988, TRUE, 400.00, 'XYZ'),
-('Skybound Souls', 'Noah Sinclair', 2003, TRUE, 510.00, 'XYZ'),
-('When the Willow Weeps', 'Grace Holloway', 1960, FALSE, 450.00, 'ABC'),
-('Letters from the Ashes', 'Julian Marks', 2005, TRUE, 580.00, 'XYZ'),
-('The Sandstorm Prophecy', 'Miles Carrington', 1965, TRUE, 350.00, 'SciFi'),
-('Moments Between Worlds', 'Amelia Drake', 2020, TRUE, 520.00, 'XYZ');
-
+('Echoes of the Forgotten', 'Lena Carter', 1999, TRUE, 499.00, 'ABC'),
+('Steel and Shadows', 'Victor Hale', 1949, TRUE, 300.00, 'XYZ'),
+('Journey Beyond Stars', 'Diana Brooks', 2020, TRUE, 750.00, 'XYZ'),
+('Mist Over the Moor', 'Marcus Gray', 2019, FALSE, 550.00, 'XYZ'),
+('Shattered Reflections', 'Eva Dalton', 2018, TRUE, 600.00, 'Penguin'),
+('Winning the Little Battles', 'Nathan Reid', 2018, TRUE, 599.00, 'Random House'),
+('Back to the Hearth', 'Isabel Monroe', 2018, TRUE, 720.00, 'ABC'),
+('Electrify the Mind', 'Colin Frost', 2011, TRUE, 680.00, 'Harper'),
+('Digital Daydreams', 'Sophie Lang', 2016, FALSE, 640.00, 'Harper'),
+('Call of the Path', 'Felix Romero', 1988, TRUE, 400.00, 'XYZ'),
+('Wings of the Horizon', 'Noah Sinclair', 2003, TRUE, 510.00, 'XYZ'),
+('The Willow’s Cry', 'Grace Holloway', 1960, FALSE, 450.00, 'ABC'),
+('Ashes and Letters', 'Julian Marks', 2005, TRUE, 580.00, 'XYZ'),
+('Storm of Dust', 'Miles Carrington', 1965, TRUE, 350.00, 'SciFi'),
+('Worlds Collide in Silence', 'Amelia Drake', 2020, TRUE, 520.00, 'XYZ');
 
 -- Select all books published after 2000
 SELECT * FROM books WHERE year_published > 2000;
