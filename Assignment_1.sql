@@ -1,4 +1,4 @@
--- Create the database (run this in a superuser connection)
+-- Create DB
 CREATE DATABASE library_db;
 
 -- Create the "books" table
